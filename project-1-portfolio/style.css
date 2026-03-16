@@ -129,6 +129,12 @@ nav h2 a {
     gap: 30px;
 }
 
+/* Example Project Card Structure (Project 2 Added) */
+.project-card.bioinformatics-dashboard::after {
+    content: "Bioinformatics Dashboard project ready";
+    display: none;
+}
+
 .project-card {
     background: var(--card-bg);
     padding: 25px;
@@ -159,6 +165,14 @@ nav h2 a {
     color: var(--primary);
     margin-bottom: 15px;
     font-weight: 600;
+}
+
+.credibility {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-style: italic;
 }
 
 /* ---------------- BUTTONS ---------------- */
